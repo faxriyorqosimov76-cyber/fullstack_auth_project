@@ -13,4 +13,4 @@ import app from './app.js';
 
 
 
-app.listen(4000, () => console.log("backend 4000 portda ishlayapti"))
+app.listen(4000, '0.0.0.0', () => console.log("backend 4000 portda ishlayapti"))
