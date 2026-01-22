@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 6. Port
-EXPOSE 4000
+EXPOSE 5000
 
 # 7. Server ishga tushirish
-CMD ["node", "server.js"]
+CMD ["node", "src/server.js"]

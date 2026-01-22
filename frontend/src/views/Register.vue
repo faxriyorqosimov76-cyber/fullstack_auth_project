@@ -20,12 +20,12 @@ export default {
 
     const register = async () => {
       try {
-        await axios.post('http://86.106.181.36:4000/api/auth/register', {
+        await axios.post('http://86.106.181.36:5000/api/auth/register', {
           email: username.value,
           password: password.value
         });
         alert('Registered successfully! Now logging in...');
-        const res = await axios.post('http://86.106.181.36:4000/api/auth/login', {
+        const res = await axios.post('http://86.106.181.36:5000/api/auth/login', {
           email: username.value,
           password: password.value
         });
